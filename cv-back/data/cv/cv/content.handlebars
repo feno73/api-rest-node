@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset cv.css @encoding=utf8}
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src={{foto}} />
+            <h1>{{nombre}}</h1>
+            <p>{{perfil}}</p>
+        </header>
+        <main>
+            <aside>
+                <section class="izq">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><img src="{#asset address-book-solid.svg @encoding=dataURI}" class="ico">{{datos.direccion}}</li>
+                        <li><img src="{#asset map-marker-solid.svg @encoding=dataURI}" class="ico">{{datos.barrio}}</li>
+                        <li><img src="{#asset mobile-solid.svg @encoding=dataURI}" class="ico">{{datos.telefono}}</li>
+                        <li><img src="{#asset at-solid.svg @encoding=dataURI}" class="ico">{{datos.email}}</li>
+                    </ul>
+                </section>
+                <section class="izq">
+                    <h3>Educación</h3>
+                    {{#each educacion}}
+                        <ul>
+                            <li>{{institucion}}</li>
+                            <li>{{carrera}}</li>
+                            <li>{{fechadesde}} - {{fechahasta}}</li>
+                        </ul>
+                    {{/each}}
+                </section>
+                <section class="izq">
+                    <h3>Cursos</h3>
+                    {{#each cursos}}
+                        <ul>
+                            <li>{{institucion}}</li>
+                            <li>{{carrera}}</li>
+                            <li>{{fechadesde}} {{fechahasta}}</li>
+                        </ul>
+                    {{/each}}
+                </section>
+                <section class="izq">
+                    <h3>Skills</h3>
+                    {{#each skills}}
+                        <p>{{skill}}</p>
+                    {{/each}}
+                </section>
+            </aside>
+            <section class="der">
+                <h3>Experiencia laboral</h3>
+                {{#each experiencia}}
+                    <ul class="experiencia">
+                        <li class="titulo">{{rol}}</li>
+                        <li class="subtit">{{empresa}} {{fechadesde}} - {{fechahasta}}</li>
+                        <li class="subtit">Tareas:
+                            <ul>
+                                {{#each detalles}}
+                                    <li class="detalle">{{detalle}}</li>
+                                {{/each}}
+                            </ul>
+                        </li>
+                    </ul>
+                {{/each}}
+            </section>
+        </main>
+    </body>
+</html>

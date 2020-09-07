@@ -1,0 +1,52 @@
+2020-08-25T20:15:23.472Z - error: Error when starting http server on port 5000 Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1314:16)
+    at listenInCluster (net.js:1362:12)
+    at Server.listen (net.js:1448:7)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:23:12
+    at Promise._execute (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:51:14
+    at Object.start (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at Object.<anonymous> (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:317:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-25T20:15:23.488Z - error: Error occured during reporter init Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1314:16)
+    at listenInCluster (net.js:1362:12)
+    at Server.listen (net.js:1448:7)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:23:12
+    at Promise._execute (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:51:14
+    at Object.start (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at Object.<anonymous> (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:317:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-26T15:59:07.471Z - error: Error when starting http server on port 5001 Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (net.js:1314:16)
+    at listenInCluster (net.js:1362:12)
+    at Server.listen (net.js:1448:7)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:23:12
+    at Promise._execute (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:51:14
+    at Object.start (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at Object.<anonymous> (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:317:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-08-26T15:59:07.476Z - error: Error occured during reporter init Error: listen EADDRINUSE: address already in use :::5001
+    at Server.setupListenHandle [as _listen2] (net.js:1314:16)
+    at listenInCluster (net.js:1362:12)
+    at Server.listen (net.js:1448:7)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:23:12
+    at Promise._execute (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\debuggability.js:313:9)
+    at Promise._resolveFromExecutor (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (D:\REPOS\cv\cv-back\node_modules\jsreport-express\node_modules\bluebird\js\release\promise.js:79:10)
+    at startAsync (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:17:10)
+    at D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:51:14
+    at Object.start (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:125:13)
+    at Object.<anonymous> (D:\REPOS\cv\cv-back\node_modules\jsreport-express\lib\reporter.express.js:317:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

@@ -1,0 +1,137 @@
+{
+    "nombre": "Diego Mercado",
+    "foto": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/08/fotos-perfil-whatsapp_16.jpg?itok=aqeTumbO",
+    "perfil": "(agregar perfil)Mis objetivos son involucrarme en proyectos desafiantes que ayuden a impulsar mis capacidades aportando valor a mi lugar de trabajo y contribuir con la generación de un buen clima laboral. Soy organizado, resolutivo y estoy constantemente buscando enriquecer mis conocimientos.",
+    "datos": {
+        "direccion": "Cramer 355",
+        "barrio": "Colegiales, CABA",
+        "telefono": "+5492216077444",
+        "email": "diegovmercado@gmail.com"
+    },
+    "educacion": [{
+        "institucion": "Universidad Tecnológica Nacional",
+        "carrera": "Ingenieria en Sistemas",
+        "fechadesde": "2013",
+        "fechahasta": "2016"
+    }],
+    "cursos": [{
+        "institucion": "EANT",
+        "carrera": "Curso de programación fullstack con javascript",
+        "fechadesde": "2020",
+        "fechahasta": "(Finalizado)"
+    },
+    {
+        "institucion": "Softtek",
+        "carrera": "Programa de formación de lideres",
+        "fechadesde": "2019",
+        "fechahasta": "(Finalizado)"
+    }],
+     "experiencia": [{
+        "empresa": "Softtek",
+        "rol": "Lider de equipo de integración",
+        "fechadesde": "11/2019",
+        "fechahasta": "actualmente",
+        "detalles": [{
+            "detalle": "Responsable del equipo encargado de dar soporte a las integraciones, migración de datos y puesta en producción de proyecto de implementación de un nuevo middleware"
+        }]
+    },
+    {
+        "empresa": "Softtek",
+        "rol": "Team Leader Scrum",
+        "fechadesde": "01/2019",
+        "fechahasta": "11/2019",
+        "detalles": [{
+            "detalle": "Coordinación de equipos"
+        },
+        {
+            "detalle": "Supervisión de procesos"
+        },
+        {
+            "detalle": "Planificación de puesta en producción de la solución"
+        },
+        {
+            "detalle": "Coordinación y seguimiento de tareas con el cliente"
+        },
+        {
+            "detalle": "Confección de métricas"
+        },
+        {
+            "detalle": "Análisis de los procesos en busca de mejoras continuas"
+        },
+        {
+            "detalle": "Colaboración en la administración de capital humano"
+        },
+        {
+            "detalle": "Gestión de riesgos"
+        }
+        ]
+    },
+    {
+        "empresa": "Softtek",
+        "rol": "Analista funcional",
+        "fechadesde": "11/2016",
+        "fechahasta": "01/2019",
+        "detalles": [{
+            "detalle": "Gestión de incidentes productivos"
+        },
+        {
+            "detalle": "Confección de documentación funcional de los incidentes"
+        },
+        {
+            "detalle": "Gestión de la puesta en producción de los tickets y nuevos requerimientos"
+        },
+        {
+            "detalle": "Seguimiento con el cliente"
+        },
+        {
+            "detalle": "Generación de métricas del equipo"
+        },
+        {
+            "detalle": "Seguimiento del equipo de segundo nivel de soporte a producción"
+        },
+        {
+            "detalle": "Implementación de ISO y CMMI en el equipo"
+        }]
+    },
+    {
+        "empresa": "Softtek",
+        "rol": "Analista QA y N2",
+        "fechadesde": "09/2015",
+        "fechahasta": "11/2016",
+        "detalles": [{
+            "detalle": "Diseño y ejecución de casos de prueba manuales"
+        },
+        {
+            "detalle": "Generación de scripts automatizados para pruebas de regresión"
+        },
+        {
+            "detalle": "Generación de Smoke Tests automatizados para monitoreo"
+        },
+        {
+            "detalle": "Ejecución de pruebas de regresión para encontrar bugs preexistentes"
+        },
+        {
+            "detalle": "Recepción, análisis y resolución de incidentes de nivel 2"
+        }]
+    }],
+    "skills": [{
+        "skill": "Website design",
+        "nivel": 300
+    },
+    {
+        "skill": "Website design",
+        "nivel": 300
+    },
+    {
+        "skill": "Website design",
+        "nivel": 300
+    },
+    {
+        "skill": "Website design",
+        "nivel": 300
+    },
+    {
+        "skill": "Website design",
+        "nivel": 300
+    }]
+}

@@ -1,0 +1,21 @@
+{
+    "shortid": "BkxD2kmJQP",
+    "name": "cv",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "format": "a4"
+    },
+    "data": {
+        "shortid": "HJecTeXJQP"
+    },
+    "creationDate": {
+        "$$date": 1598456469689
+    },
+    "modificationDate": {
+        "$$date": 1598456469689
+    },
+    "_id": "y9zF5nGombOFHXsf",
+    "$entitySet": "templates"
+}

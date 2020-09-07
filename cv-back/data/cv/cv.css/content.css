@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: 14px;
+}
+header {
+    display: flex;
+    background-color: green;
+}
+header img {
+    width: 20%;
+    height: auto;
+}
+h1 {
+    font-size: 18;
+}
+main {
+    display: flex;
+}
+ul {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+}
+aside {
+    margin-right: 10px;
+    padding-right: 10px; 
+    border-right: 1px solid gray;
+}
+.ico {
+    width: 15px;
+    height: auto;
+}
+.titulo {
+    text-transform: uppercase;
+}
+.detalle {
+    font-size: 11px;
+    list-style: circle inside;
+}
+.experiencia {
+    margin-bottom: 15px;
+}
