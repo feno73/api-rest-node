@@ -4,9 +4,8 @@
   "description": "Creador de CVs",
   "scripts": {
     "postinstall": "run-s install:back install:front",
-		"install:back": "cd cv-back && npm install",
-		"install:front": "cd cv-front && npm install",
-
+    "install:back": "cd cv-back && npm install",
+    "install:front": "cd cv-front && npm install",
     "start": "run-p start:back start:front",
     "start:back": "npm start --prefix cv-back",
     "start:front": "npm start --prefix cv-front"
